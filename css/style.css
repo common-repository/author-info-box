@@ -1,0 +1,126 @@
+.author-info {
+    display: none;
+}
+.entry-content, .entry-summary {
+    padding: 0 5% 5% !important;
+}
+.site .avatar {
+    border-radius: 0 !important;
+}
+
+
+.author_info_box {
+	border:1px solid #f1f1f1;
+	padding:15px;
+}
+.author_info_box_gravatar{
+	float:left;
+	margin-right:15px;
+}
+.author_info_box_website{
+	margin-bottom:10px;
+}
+.author_info_box_social {
+    padding: 4px 15px;
+    border: 1px solid #f1f1f1;
+    border-top: 0;
+    background: #f9f9f9;
+}
+.author_info_box_social a {
+    text-decoration: none;
+    border-bottom: 0 !important;
+	margin-right:8px;
+}
+.site .author_info_box_gravatar img {
+    border-radius: 50% !important;
+}
+.author_info_box_name{
+	font-size:25px;
+	font-family:Lobster
+}
+.author_info_box_website{
+	font-size:14px
+}
+.author_info_box_description{
+	font-size:14px
+}
+
+
+.author_info_box_tabs{
+	position: relative;
+	display: block;
+	width: 40em;
+	height: 15em;
+	margin: 2em auto;
+}
+
+.author_info_content{
+	margin-bottom:20px;
+}
+.author_info_content > div {
+	display: none;
+}
+.author_info input {
+	display: none;
+}
+.author_info label {
+	display: inline-block;
+	padding: 10px 15px;
+	text-align: center;
+	font-size:12px;
+}
+.author_info label:hover {
+	cursor: pointer;
+}
+.author_info input:checked + label {
+	background: #f9f9f9;
+    border: 1px solid #f1f1f1;
+	border-bottom:0;
+}
+
+.author_info #tab1:checked ~ .author_info_content #content1,
+.author_info #tab2:checked ~ .author_info_content #content2,
+.author_info #tab3:checked ~ .author_info_content #content3,
+.author_info #tab4:checked ~ .author_info_content #content4,
+.author_info #tab5:checked ~ .author_info_content #content5,
+.author_info #tab6:checked ~ .author_info_content #content6,
+.author_info #tab7:checked ~ .author_info_content #content7,
+.author_info #tab8:checked ~ .author_info_content #content8,
+.author_info #tab9:checked ~ .author_info_content #content9,
+.author_info #tab10:checked ~ .author_info_content #content10,
+.author_info #tab11:checked ~ .author_info_content #content11,
+.author_info #tab12:checked ~ .author_info_content #content12 {
+	display: block;
+}
+
+.author_info_box_last_post a{
+	display:block;
+	font-size:14px;
+	border-bottom:0 !important;
+}
+.author_info_box_last_post a small{
+	margin-right:10px;
+}
+.author_info .text-center{
+	text-align:center;
+}
+
+
+.author_info_box_social a {
+    border-radius: 50%;
+    padding: 5px 5px;
+    background: #ffffff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    color: #797979;
+}
+.author_info_box label{
+	text-align:left;
+}
+.author_info_box input {
+    display: block;
+    text-align: left;
+}
